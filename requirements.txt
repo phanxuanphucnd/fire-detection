@@ -1,3 +1,2 @@
-tensorflow
-opencv-python
-imageai
+git+https://github.com/BlueMirrors/cvu
+vidsz
