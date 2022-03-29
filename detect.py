@@ -5,13 +5,14 @@ Args
     --inputs: path to input video or image file. default people.mp4 will download demo video.
     --output: path to output video or image file. default out.mp4 (out.jpg if image file given in input )
 """
-import argparse
 import os
-import time
-import numpy as np
 import cv2
-from cvu.detector.yolov5 import Yolov5 as Yolov5Trt
+import time
+import argparse
+import numpy as np
+
 from vidsz.opencv import Reader, Writer
+from cvu.detector.yolov5 import Yolov5 as Yolov5Trt
 from cvu.utils.google_utils import gdrive_download
 
 
